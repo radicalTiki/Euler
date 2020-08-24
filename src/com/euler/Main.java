@@ -5,8 +5,8 @@ import com.euler.problem.*;
 public class Main {
 
     public static void main(String[] args) {
-        Problem4 problem = new Problem4();
-        System.out.println(problem.getLargestPalindrome());
+        Problem6 problem = new Problem6();
+        System.out.println(problem.getDifferenceSquares());
     }
 }
 
