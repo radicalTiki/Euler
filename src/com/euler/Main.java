@@ -5,7 +5,7 @@ import com.euler.problem.*;
 public class Main {
 
     public static void main(String[] args) {
-        Problem9 problem = new Problem9();
-        System.out.println(problem.getPythagTripletProduct());
+        Problem11 problem = new Problem11();
+        System.out.println(problem.greatestProductInGrid());
     }
 }
