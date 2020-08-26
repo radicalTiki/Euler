@@ -1,5 +1,10 @@
 package com.euler.problem;
 
+/**
+ * In the 20×20 grid below, four numbers along a diagonal line have been marked in red.
+ * The product of these numbers is 26 × 63 × 78 × 14 = 1788696.
+ * 40304286
+ */
 public class Problem11 {
     public int greatestProductInGrid() {
         int[][] grid = {
@@ -56,8 +61,8 @@ public class Problem11 {
         }
 
         //diagonally left
-        for (int y = 19; y > 3; y--) {
-            for (int x = 19; x > 3; x--) {
+        for (int y = 19; y > 2; y--) {
+            for (int x = 19; x > 2; x--) {
                 int product = grid[x][y] * grid[x - 1][y - 1] * grid[x - 2][y - 2] * grid[x - 3][y - 3];
                 if (product > greatestProduct)
                     greatestProduct = product;

@@ -1,7 +1,5 @@
 package com.euler.problem;
 
-import sun.security.util.BitArray;
-
 import java.util.ArrayList;
 import java.util.BitSet;
 import java.util.List;
