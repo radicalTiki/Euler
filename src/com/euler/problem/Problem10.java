@@ -56,7 +56,6 @@ public class Problem10 {
             }
         }
 
-        // Print all prime numbers
         for(int i = 2; i <= upperLimit; i++) {
             if(prime[i] == true)
                 sum += i;

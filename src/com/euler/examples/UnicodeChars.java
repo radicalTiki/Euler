@@ -1,4 +1,4 @@
-package com.euler.problem;
+package com.euler.examples;
 
 public class UnicodeChars {
     public void getUnicode() {
